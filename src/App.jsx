@@ -1,14 +1,23 @@
-import { useState } from 'react'
+import Calculator from "./components/Calculator";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-      <h1>Calculator App</h1>
-    </div>
-  )
+    <main
+      className="
+        min-h-screen
+        bg-gradient-to-br
+        from-indigo-500
+        via-purple-500
+        to-pink-500
+        flex
+        items-center
+        justify-center
+        p-4
+      "
+    >
+      <Calculator />
+    </main>
+  );
 }
 
-export default App
-
+export default App;
