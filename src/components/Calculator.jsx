@@ -160,10 +160,12 @@ const Calculator = () => {
               Calculator
             </h1>
 
-            
+            <p className="text-xs sm:text-sm text-gray-500 mt-1">
+              Simple & Fast
+            </p>
           </div>
 
-         
+          
         </div>
 
         
