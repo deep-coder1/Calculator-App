@@ -166,7 +166,7 @@ const Calculator = () => {
           </div>
 
           <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center">
-            <span>
+            <span className="text-indigo-600 text-lg">
               🧮
             </span>
           </div>
