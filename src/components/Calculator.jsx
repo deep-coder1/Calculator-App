@@ -172,7 +172,10 @@ const Calculator = () => {
           </div>
         </div>
 
-        
+        {/* Display */}
+        <CalculatorDisplay
+          
+        />
 
         
       </div>
