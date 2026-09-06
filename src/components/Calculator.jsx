@@ -174,10 +174,11 @@ const Calculator = () => {
 
         {/* Display */}
         <CalculatorDisplay
-          
+          display={display}
+          firstNumber={firstNumber}
+          operator={operator}
         />
 
-        
       </div>
     </div>
   );
