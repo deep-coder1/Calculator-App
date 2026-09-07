@@ -179,6 +179,7 @@ const Calculator = () => {
           operator={operator}
         />
 
+        
       </div>
     </div>
   );

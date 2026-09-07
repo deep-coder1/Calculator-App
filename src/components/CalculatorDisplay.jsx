@@ -13,6 +13,11 @@ const CalculatorDisplay = ({ display, firstNumber, operator }) => {
         overflow-hidden
       "
     >
+      {/* Previous calculation */}
+      <div>
+        
+      </div>
+
       
     </Paper>
   );
