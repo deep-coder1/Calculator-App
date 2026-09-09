@@ -15,7 +15,9 @@ const CalculatorDisplay = ({ display, firstNumber, operator }) => {
     >
       {/* Previous calculation */}
       <div className="h-6 text-right text-sm sm:text-base text-gray-400">
-        
+        {firstNumber !== null && operator
+          ? `${firstNumber} ${operator}`
+          : ""}
       </div>
 
       
