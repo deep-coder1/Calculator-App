@@ -20,7 +20,12 @@ const CalculatorDisplay = ({ display, firstNumber, operator }) => {
           : ""}
       </div>
 
-      
+      {/* Current value */}
+      <div
+        
+      >
+        
+      </div>
     </Paper>
   );
 };
