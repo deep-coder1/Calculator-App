@@ -24,7 +24,7 @@ const CalculatorDisplay = ({ display, firstNumber, operator }) => {
       <div
         
       >
-        
+        {display}
       </div>
     </Paper>
   );
