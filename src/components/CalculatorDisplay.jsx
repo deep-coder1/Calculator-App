@@ -22,7 +22,17 @@ const CalculatorDisplay = ({ display, firstNumber, operator }) => {
 
       {/* Current value */}
       <div
-        
+        className="
+          text-right
+          text-4xl
+          sm:text-5xl
+          font-bold
+          text-white
+          mt-2
+          overflow-x-auto
+          whitespace-nowrap
+          scrollbar-hide
+        "
       >
         {display}
       </div>
