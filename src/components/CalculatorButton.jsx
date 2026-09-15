@@ -1,7 +1,11 @@
 import { Button } from "@mui/material";
 
 const CalculatorButton = ({
-  
+  children,
+  onClick,
+  variant = "outlined",
+  color = "inherit",
+  className = "",
 }) => {
   return (
     <Button
@@ -10,7 +14,7 @@ const CalculatorButton = ({
       onClick={onClick}
       
     >
-      Children
+      {children}
     </Button>
   );
 };
