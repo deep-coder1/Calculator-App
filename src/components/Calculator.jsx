@@ -179,7 +179,18 @@ const Calculator = () => {
           operator={operator}
         />
 
-        
+        {/* Buttons */}
+        <div className="grid grid-cols-4 gap-2.5 sm:gap-3">
+
+          {/* Row 1 */}
+          <CalculatorButton
+            onClick={handleClear}
+            variant="contained"
+            color="error"
+          >
+            AC
+          </CalculatorButton>
+
       </div>
     </div>
   );
