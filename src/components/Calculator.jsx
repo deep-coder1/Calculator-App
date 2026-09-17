@@ -191,6 +191,23 @@ const Calculator = () => {
             AC
           </CalculatorButton>
 
+          <CalculatorButton
+            onClick={handleDelete}
+            variant="contained"
+            className="!bg-gray-200 !text-gray-800 hover:!bg-gray-300"
+          >
+            DEL
+          </CalculatorButton>
+
+          <CalculatorButton
+            onClick={handlePercentage}
+            variant="contained"
+            className="!bg-gray-200 !text-gray-800 hover:!bg-gray-300"
+          >
+            %
+          </CalculatorButton>
+
+          
       </div>
     </div>
   );
