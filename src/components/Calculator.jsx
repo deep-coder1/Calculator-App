@@ -208,6 +208,9 @@ const Calculator = () => {
           </CalculatorButton>
 
           
+        </div>
+
+        
       </div>
     </div>
   );
