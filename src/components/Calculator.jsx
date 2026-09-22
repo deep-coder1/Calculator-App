@@ -222,6 +222,12 @@ const Calculator = () => {
             7
           </CalculatorButton>
 
+          <CalculatorButton
+            onClick={() => handleNumber("8")}
+          >
+            8
+          </CalculatorButton>
+
           
         </div>
 
