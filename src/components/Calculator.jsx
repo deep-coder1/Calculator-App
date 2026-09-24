@@ -234,6 +234,14 @@ const Calculator = () => {
             9
           </CalculatorButton>
 
+          <CalculatorButton
+            onClick={() => handleOperator("×")}
+            variant="contained"
+            className="!bg-indigo-600 !text-white hover:!bg-indigo-700"
+          >
+            ×
+          </CalculatorButton>
+
           
         </div>
 
