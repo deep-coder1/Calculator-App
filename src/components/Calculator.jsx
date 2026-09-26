@@ -249,6 +249,12 @@ const Calculator = () => {
             4
           </CalculatorButton>
 
+          <CalculatorButton
+            onClick={() => handleNumber("5")}
+          >
+            5
+          </CalculatorButton>
+
           
         </div>
 
