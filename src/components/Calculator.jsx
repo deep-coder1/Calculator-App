@@ -285,7 +285,7 @@ const Calculator = () => {
           <CalculatorButton
             
           >
-            
+            3
           </CalculatorButton>
 
           
