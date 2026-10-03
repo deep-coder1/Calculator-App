@@ -283,7 +283,7 @@ const Calculator = () => {
           </CalculatorButton>
 
           <CalculatorButton
-            
+            onClick={() => handleNumber("3")}
           >
             3
           </CalculatorButton>
