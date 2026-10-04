@@ -288,6 +288,12 @@ const Calculator = () => {
             3
           </CalculatorButton>
 
+          <CalculatorButton
+            
+          >
+            +
+          </CalculatorButton>
+
           
         </div>
 
