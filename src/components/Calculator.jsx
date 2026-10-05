@@ -289,6 +289,7 @@ const Calculator = () => {
           </CalculatorButton>
 
           <CalculatorButton
+            onClick={() => handleOperator("+")}
             
           >
             +
