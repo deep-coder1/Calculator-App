@@ -290,6 +290,7 @@ const Calculator = () => {
 
           <CalculatorButton
             onClick={() => handleOperator("+")}
+            variant="contained"
             
           >
             +
