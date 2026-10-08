@@ -296,6 +296,13 @@ const Calculator = () => {
             +
           </CalculatorButton>
 
+          {/* Row 5 */}
+          <CalculatorButton
+           
+          >
+            0
+          </CalculatorButton>
+
           
         </div>
 
