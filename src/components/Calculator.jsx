@@ -299,7 +299,7 @@ const Calculator = () => {
           {/* Row 5 */}
           <CalculatorButton
             onClick={() => handleNumber("0")}
-            
+            className="col-span-2"
           >
             0
           </CalculatorButton>
